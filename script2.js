@@ -9,11 +9,7 @@ function diffArray(arr1, arr2) {
     }
   }
 
-  for( var j=0; j<arr2.length; j++){
-    if(arr1.indexOf(arr2[i])===-1){
-      newArr.push(arr2[i]);
-    }
-  }
+
 
 
   return newArr;
